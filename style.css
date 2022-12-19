@@ -163,7 +163,7 @@ h3{
     font-weight: bolder;
 }
 .subTitle_05{
-    color: rgb(0,174,88);
+    color: #00ae58;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
     line-height: 1.5;
@@ -874,6 +874,11 @@ table th{
     margin-bottom: 50px;
     width: 100%;  
 }
+.homepage1{
+    display: block;
+    width: 40%;
+    margin-top: 20px;
+}
 .UIUX_05_persona{
     display: block;
     margin-left: auto;
@@ -890,6 +895,7 @@ table th{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
     width: 70%;
 }
 .UIUX05_lofi{
@@ -909,6 +915,83 @@ table th{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    width: 100%;
+}
+.UIUX_05_RM{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.UIUX_05_RM1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.UIUX_05_RM2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.UIUX_05_RM3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.UIUX_05_RM4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.UIUX_05_interview{
+    width: 40%;
+}
+.UIUX_05_survey{
+    width: 40%;
+}
+.UIUX_05_card{
+    width: 40%;
+}
+.UIUX_05_tree{
+    width: 40%;
+}
+.prototype{
+    text-decoration: underline; 
+    color: #272A31;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.UIUX_05_deisgnthoughts01{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.homepage1_title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.homepage1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.UIUX_05_deisgnthoughts02{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.UIUX_05_deisgnthoughts03{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 /* product page */
