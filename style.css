@@ -97,6 +97,7 @@ a{
     width: 40px;
     line-height: 40px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .nav{
     text-align: right;
