@@ -4,6 +4,7 @@ body{
     margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
+    min-height:800px;
 }
 header{
     margin-top: 20px;
@@ -136,6 +137,7 @@ a{
     padding: 0 25px;
 
 }
+
 /* body */
 h1{
     color: #272A31;
@@ -332,6 +334,11 @@ h3{
 
 /* uiux page */
 .back{
+    text-align: left;
+    height: 40px;
+    position: fixed;
+}
+.back_non{
     text-align: left;
     height: 40px;
 }
