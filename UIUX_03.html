@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="portfolio/4x/becky icon.ico" rel="shortcut icon"/>
-    <title>Liangyu Su</title>
+    <title>mmWave Sensor Interface</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +13,9 @@
 <body class="UIUX_bgc">
     <header>
         <div class="nav">
-            <a href="./index.html">About</a>
-            <a href="./category.html">Home</a>
+            <a href="./index.html">Home</a>
+            <a class="categoryhome" href="./category.html">Project</a>
+            <a href="./aboutme.html">About Me</a>
             <a href="https://drive.google.com/file/d/1WiLiuxB-0mlMj0_1oy_UaokooLg3H4p2/view?usp=share_link" target="_blank">Resume</a>
         </div>
         <div class="back">
@@ -26,6 +27,7 @@
     <div class="UIUX_body">
         <div>
             <img class="uiux_03_banner" src="portfolio/uiux_03_banner.jpg">
+            <p class="subTitle_03">GUI Design / Device Control</p>
             <p class="title_03">mmWave Sensor Interface</p>
             <h3>Client : Innovative Navigation Technology Ltd.<br> UI/UX Designer : Liang Yu Su<br>Front-end & Back-end Engineering : Yi-Hua Lee<br><br>Project Time : 2021.05 - 2021.08</h3>
         </div>
@@ -168,4 +170,23 @@
         <h3>© 2022 Liangyu Su. All Rights Reserved</h3>
     </div> 
         </div>
+        <button onclick="topFunction()" id="top_btn" title="Go to top">TOP</button>
+      
+    <script>
+        var top_btn = document.getElementById('top_btn')
+        window.addEventListener('scroll',function(event){
+          
+          if (window.scrollY >= 20){
+            top_btn.style.bottom = "20px"
+          }
+          if (window.scrollY < 15){
+            top_btn.style.bottom = "-50px"
+          }
+        })
+        function topFunction() {
+            // document.body.scrollTop = 0; // For Safari
+            // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            window.scrollTo( {top: 0,behavior: "smooth"} )
+          }
+    </script>
 </body>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="portfolio/4x/becky icon.ico" rel="shortcut icon"/>
-    <title>Liangyu Su</title>
+    <title>Robot Control APP</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,7 @@
         <div class="nav">
             <a href="./index.html">Home</a>
             <a class="categoryhome" href="./category.html">Project</a>
+            <a href="./aboutme.html">About Me</a>
             <a href="https://drive.google.com/file/d/1WiLiuxB-0mlMj0_1oy_UaokooLg3H4p2/view?usp=share_link" target="_blank">Resume</a>
         </div>
         <div class="back">
@@ -26,7 +27,7 @@
     <div class="UIUX_body">
         <div>
             <img class="uiux_02_banner" src="portfolio/uiux_02_banner.png">
-            <p class="subTitle_02">Robot Control / Mobile Design / UI Design / User Experience / Iteration</p>
+            <p class="subTitle_02">Robot Control / UI Design / User Experience / Iteration / Mobile</p>
             <p class="title_02">Multifunction Interaction Robot Control APP</p>
             <p class="content_word">UI/UX Designer : Liang Yu Su</p>  
             <p class="content_word">Front-end & Back-end Engineering : Aking-Ling</p>
@@ -168,4 +169,23 @@
         <h3>© 2022 Liangyu Su. All Rights Reserved</h3>
     </div> 
         </div>
+        <button onclick="topFunction()" id="top_btn" title="Go to top">TOP</button>
+      
+        <script>
+            var top_btn = document.getElementById('top_btn')
+            window.addEventListener('scroll',function(event){
+              
+              if (window.scrollY >= 20){
+                top_btn.style.bottom = "20px"
+              }
+              if (window.scrollY < 15){
+                top_btn.style.bottom = "-50px"
+              }
+            })
+            function topFunction() {
+                // document.body.scrollTop = 0; // For Safari
+                // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                window.scrollTo( {top: 0,behavior: "smooth"} )
+              }
+        </script>
 </body>
