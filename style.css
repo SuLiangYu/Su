@@ -163,7 +163,7 @@ h2{
     color: #272A31;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.5;
     width: 80%;
     font-weight: bolder;
 }
@@ -180,6 +180,14 @@ h3{
     font-size: 16px;
     line-height: 1.5;
     font-weight: bold;
+}
+.slogan{
+    color: #25D1DA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+
 }
 .subTitle{
     color: #3a66ce;
@@ -256,7 +264,23 @@ h3{
     font-weight: bolder;
 }
 .subTitle_06{
-    color: #21bbe6;
+    color: #25D1DA;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    width: 80%;
+    font-weight: bolder;
+}
+.subTitle_black{
+    color: 272A31;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    width: 80%;
+    font-weight: bolder;
+}
+.subTitle_white{
+    color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     line-height: 1.5;
@@ -272,7 +296,9 @@ h3{
     margin-bottom: 20px;
     border-radius: 15px;
 }
-
+.video{
+    text-align: center;
+}
 /* footer */
 .footer a img{
     width: 30px;
@@ -368,6 +394,7 @@ h3{
 }
 .conclusion{
     width: 60%;
+    margin-top: 80px;
 }
 .uiux{
     display: flex;
@@ -447,7 +474,7 @@ h3{
 
 }
 .content{
-    background-color: #e6e6e6;
+    background-color: #f1f1f1;
     padding: 40px;
     border-radius: 10px;
     margin-top: 20px;
@@ -1047,9 +1074,11 @@ h3{
 .prototype{
     text-decoration: underline; 
     color: #272A31;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 22px;
-    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    width: 80%;
+    font-weight: bolder;
 }
 .UIUX_05_deisgnthoughts01{
     display: flex;
@@ -1133,6 +1162,61 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 100%
+}
+
+/* UIUX_06 */
+
+.UIUX06_info01{
+    width: 90%;
+}
+.UIUX_06info{
+    display: flex;
+    margin-top: 80px;
+}
+.interview_insight{
+    width: 30%;
+    background-color: #ffffff;
+    border: 2px solid #25D1DA;
+    border-radius: 20px;
+    padding: 20px 25px 10px 25px;
+    margin: 15px;
+}
+.interview_insight_all{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+.UIUX_06_persona{
+    width: 40%;
+}
+.emotion{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.UIUX_06_icons{
+    width: 8%;
+    margin: 20px;
+    height: 100%;
+}
+.UIUX_06_ideation{
+    background-color: #25D1DA;
+    border-radius: 20px;
+    padding: 20px 25px 10px 25px;
+    margin: 15px;
+}
+.ideation_each{
+    margin-left: 20px;
+}
+.features_all{
+    display: flex;
+}
+.UIUX06_lofi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 80px;
 }
 /* product page */
 .product{
@@ -1311,7 +1395,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: #21bbe6;
+    color: #25D1DA;
 }
 .product_02_banner{
     border-radius: 10px;
